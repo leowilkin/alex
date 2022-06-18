@@ -60,11 +60,15 @@
                       
                       
         }
-        iframe {
-                width:centre;
-                margin:centre;
+        video {
+                width:auto;
+                margin:auto;
                 text-align:center;
+                pointer-events: none;
          }
+         video::-webkit-media-controls-start-playback-button {
+    display: none;
+}
 /* Add a black background color to the top navigation */
 .topnav {
   background-color: green;
